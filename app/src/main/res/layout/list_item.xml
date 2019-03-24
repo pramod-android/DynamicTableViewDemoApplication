@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/header_border"
+    android:orientation="horizontal"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/po_listitem_OrderNO"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Order NO"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/po_listitem_PODate"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="PO Date"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/po_listitem_SupplierName"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Supplier Name"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/po_listitem_OrderNetvalue"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Order Net value"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/po_listitem_Status"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        android:text=">"
+        android:textColor="@android:color/black" />
+    <!--  OrderNO,PODate,SupplierName,OrderNetvalue,Status -->
+
+</LinearLayout>
